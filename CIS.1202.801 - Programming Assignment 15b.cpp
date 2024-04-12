@@ -19,3 +19,15 @@ template<>
 int half(int value) {
     return static_cast<int>(std::round(value / 2.0));
 }
+
+int main() {
+    double a = 7.0;
+    float b = 5.0f;
+    int c = 3;
+
+    std::cout << half(a) << std::endl; 
+    std::cout << half(b) << std::endl; 
+    std::cout << half(c) << std::endl; 
+
+    return 0;
+}
