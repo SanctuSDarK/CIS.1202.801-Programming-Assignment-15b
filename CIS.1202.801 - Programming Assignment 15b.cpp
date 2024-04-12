@@ -8,7 +8,7 @@ Templates
 */
 
 #include <iostream>
-#include <cmath>
+#include <cmath> // For std::round
 
 template<typename T>
 T half(T value) {
